@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import React from "react";
 import { GrLinkNext, GrLinkPrevious } from "react-icons/gr";
@@ -38,24 +38,7 @@ const Identity = () => {
           />
         ))}
       </div>
-      <div className="flex flex-row items-center justify-evenly my-10">
-        <div>
-          <p className="font-normal text-lg text-gray-400">
-            <span className="font-bold text-2xl text-black">
-              01 <span className="text-gray-400">/</span>
-            </span>
-            03
-          </p>
-        </div>
-        <div className="flex flex-row">
-          <button className="flex self-center border p-5 cursor-pointer bg-gray-300">
-            <GrLinkPrevious color="gray" />
-          </button>
-          <button className="flex self-center border p-5 cursor-pointer bg-[#029FE4]">
-            <GrLinkNext color="white" />
-          </button>
-        </div>
-      </div>
+      <div className="flex flex-row items-center justify-evenly my-10"></div>
     </>
   );
 };

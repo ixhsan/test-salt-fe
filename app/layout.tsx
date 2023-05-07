@@ -4,8 +4,8 @@ import { Rubik } from 'next/font/google'
 const rubik = Rubik({ subsets: ['latin'] })
 
 export const metadata = {
-  title: 'PO Company Web Profile',
-  description: 'Salt Assesment test',
+  title: 'PO Company',
+  description: 'Salt Assesment test 2023',
 }
 
 export default function RootLayout({

@@ -12,7 +12,7 @@ const Header = () => {
   }, []);
 
   return (
-    <header className="fixed w-full z-10 shadow-sm">
+    <header className="fixed w-full z-10 shadow-lg">
       <div
         className="
         py-4 
